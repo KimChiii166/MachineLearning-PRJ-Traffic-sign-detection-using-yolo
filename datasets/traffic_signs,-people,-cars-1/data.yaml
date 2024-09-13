@@ -1,0 +1,33 @@
+names:
+- Bus
+- Car
+- Electric pole
+- Motorcycle
+- Person
+- Tree
+- bus_stop
+- do_not_enter
+- do_not_turn_l
+- do_not_turn_r
+- do_not_u_turn
+- enter_left_lane
+- green_light
+- no_parking
+- parking
+- ped_crossing
+- ped_zebra_cross
+- red_light
+- stop
+- u_turn
+- warning
+- yellow_light
+nc: 22
+roboflow:
+  license: CC BY 4.0
+  project: traffic_signs-people-cars
+  url: https://universe.roboflow.com/xm-go-996-wktuy/traffic_signs-people-cars/dataset/1
+  version: 1
+  workspace: xm-go-996-wktuy
+test: ../test/images
+train: /content/drive/MyDrive/Nhom/datasets/traffic_signs,-people,-cars-1/train/images
+val: /content/drive/MyDrive/Nhom/datasets/traffic_signs,-people,-cars-1/valid/images
